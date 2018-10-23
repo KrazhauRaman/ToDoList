@@ -48,7 +48,7 @@ class ToDoListLogin extends Component {
                 theme="dark" />)}
           </div>
           {this.state.isCaptchaLoaded && (
-            <Link className="todolist-login-enter" to={`/todolist`}>
+            <Link className="todolist-login-enter" to={`/todolist/list`}>
               <button
                 type="button"
                 disabled={!this.state.isCaptchaSolved}

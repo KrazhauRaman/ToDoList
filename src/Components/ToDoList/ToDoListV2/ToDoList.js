@@ -19,7 +19,7 @@ class ToDoListV2 extends Component {
         return (
             (!this.props.isLogged) ?
                 (
-                    <Redirect to='/' />
+                    <Redirect to='/todolist' />
                 ) : (
                     <div className="flex-wrapper">
                         <ToDoListFormContainer key={1} />

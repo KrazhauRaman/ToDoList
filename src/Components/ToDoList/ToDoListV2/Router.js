@@ -7,8 +7,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 const RouterSwitch = () => (
     <div>
         <Switch>
-            <Route path='/todolist' component={ToDoList} />
-            <Route path='/' component={Login} />
+            <Route path='/todolist/list' component={ToDoList} />
+            <Route path='/todolist' component={Login} />
         </Switch>
     </div>
 );
